@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cura_Healthcare">
+    <test name="Login Passant">
+        <classes>
+            <class name="testcase.login.CasPassant"/>
+        </classes>
+    </test>
+    <test name="Login Non Passant">
+        <classes>
+            <class name="testcase.login.CasNonPassant"/>
+        </classes>
+    </test>
+</suite>
