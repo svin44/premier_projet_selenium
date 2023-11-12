@@ -14,9 +14,6 @@ public class BaseTest {
     @BeforeMethod
     protected void setUp(){
         ChromeOptions chromeOptions = new ChromeOptions();
-        //chromeOptions.addArguments("--headless");
-        //chromeOptions.addArguments("--start-fullscreen");
-        //driver = WebDriverManager.chromedriver().capabilities(chromeOptions).create();
         driver = new ChromeDriver(chromeOptions);
     }
 
