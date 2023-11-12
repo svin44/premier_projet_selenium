@@ -33,11 +33,11 @@ public class AppointmentConfirmationPage {
     /**
      * Getters for elements of the page
      */
-    public WebElement getAppointmentConfirmationMessage(){ return driver.findElement(By.id("//*[@class=\"lead\"]")); }
-    public WebElement getAppointmentFacilityConfirmation(){ return driver.findElement(By.id("facility")); }
-    public WebElement getAppointmentApplyConfirmation(){ return driver.findElement(By.id("hospital_readmission")); }
-    public WebElement getAppointmentProgramConfirmation(){ return driver.findElement(By.id("program")); }
-    public WebElement getAppointmentDateConfirmation(){ return driver.findElement(By.id("visit_date")); }
-    public WebElement getAppointmentCommentConfirmation(){ return driver.findElement(By.id("comment")); }
+    public WebElement getAppointmentConfirmationMessage(){ return driver.findElement(appointmentConfirmationMessageXpath); }
+    public WebElement getAppointmentFacilityConfirmation(){ return driver.findElement(appointmentFacilityConfirmationXpath); }
+    public WebElement getAppointmentApplyConfirmation(){ return driver.findElement(appointmentApplyConfirmationXpath); }
+    public WebElement getAppointmentProgramConfirmation(){ return driver.findElement(appointmentProgramConfirmationXpath); }
+    public WebElement getAppointmentDateConfirmation(){ return driver.findElement(appointmentDateConfirmationXpath); }
+    public WebElement getAppointmentCommentConfirmation(){ return driver.findElement(appointmentCommentConfirmationXpath); }
 
 }

@@ -14,7 +14,6 @@ public class ProfileTest extends BaseTest {
     private VerifyInDriver verify;
     private Verify verifyText;
     private BurgerMenu burgerMenu;
-
     private Profile profile;
 
     @BeforeMethod

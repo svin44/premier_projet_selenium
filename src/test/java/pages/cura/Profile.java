@@ -27,6 +27,6 @@ public class Profile {
     public By logoutButtonXpath = By.xpath("//a[@class='btn btn-default']");
 
     //Getters
-    public WebElement getLogoutButton() { return driver.findElement(By.xpath("//a[@class='btn btn-default']"));}
+    public WebElement getLogoutButton() { return driver.findElement(logoutButtonXpath);}
 
 }

@@ -64,17 +64,17 @@ public class MakeAppointmentPage {
     /**
      * Getters for elements of the page
      */
-    public WebElement getfacilitySelection(){ return driver.findElement(By.id("combo_facility"));}
-    public WebElement getOptionTokyo(){ return driver.findElement(By.xpath("//*[@id=\"combo_facility\"]/option[1]"));}
-    public WebElement getOptionHongkong(){ return driver.findElement(By.xpath("//*[@id=\"combo_facility\"]/option[2]"));}
-    public WebElement getOptionSeoul(){ return driver.findElement(By.xpath("//*[@id=\"combo_facility\"]/option[3]"));}
-    public  WebElement getApplyButton(){return  driver.findElement(By.id("chk_hospotal_readmission"));}
-    public  WebElement getMedicareButton(){return  driver.findElement(By.id("radio_program_medicare"));}
-    public  WebElement getMedicaidButton(){return  driver.findElement(By.id("radio_program_medicaid"));}
-    public  WebElement getNoneButton(){return  driver.findElement(By.id("radio_program_none"));}
-    public  WebElement getDate(){return  driver.findElement(By.id("txt_visit_date"));}
-    public WebElement getComment(){return  driver.findElement(By.id("txt_comment"));}
-    public WebElement getbookAppointmentButton(){ return driver.findElement(By.id("btn-book-appointment")); }
+    public WebElement getfacilitySelection(){ return driver.findElement(facilitySelectXpath);}
+    public WebElement getOptionTokyo(){ return driver.findElement(optionTokyo);}
+    public WebElement getOptionHongkong(){ return driver.findElement(optionHongKong);}
+    public WebElement getOptionSeoul(){ return driver.findElement(optionSeoul);}
+    public  WebElement getApplyButton(){return  driver.findElement(applyButtonXpath);}
+    public  WebElement getMedicareButton(){return  driver.findElement(medicareButtonXpath);}
+    public  WebElement getMedicaidButton(){return  driver.findElement(medicaidButtonXpath);}
+    public  WebElement getNoneButton(){return  driver.findElement(noneButtonXpath);}
+    public  WebElement getDate(){return  driver.findElement(dateXpath);}
+    public WebElement getComment(){return  driver.findElement(commentXpath);}
+    public WebElement getbookAppointmentButton(){ return driver.findElement(bookAppointmentButtonXpath); }
 
 
 }

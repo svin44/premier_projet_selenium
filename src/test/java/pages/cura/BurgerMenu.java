@@ -57,10 +57,10 @@ public class BurgerMenu {
 
 
     //Getters
-    public WebElement getButtonBurgerMenu() { return driver.findElement(By.xpath("//i[@class='fa fa-bars']"));}
-    public WebElement getHomeBurgerButton() {return driver.findElement(By.xpath("//a[normalize-space()='Home']"));}
-    public WebElement getLoginBurgerButton() {return driver.findElement(By.xpath("//a[normalize-space()='Login']"));}
-    public WebElement getLogoutBurgerButton() {return driver.findElement(By.xpath("//a[normalize-space()='Logout']"));}
-    public WebElement getHistoryBurgerButton() {return driver.findElement(By.xpath("//a[normalize-space()='History']"));}
-    public WebElement getProfileBurgerButton() {return driver.findElement(By.xpath("//a[normalize-space()='Profile']"));}
+    public WebElement getButtonBurgerMenu() { return driver.findElement(buttonBurgerMenuXpath);}
+    public WebElement getHomeBurgerButton() {return driver.findElement(homeBurgerMenuXpath);}
+    public WebElement getLoginBurgerButton() {return driver.findElement(loginBurgerMenuXpath);}
+    public WebElement getLogoutBurgerButton() {return driver.findElement(logoutBurgerMenuXpath);}
+    public WebElement getHistoryBurgerButton() {return driver.findElement(historyBurgerMenuXpath);}
+    public WebElement getProfileBurgerButton() {return driver.findElement(profileBurgerMenuXpath);}
 }

@@ -31,7 +31,6 @@ public class CasNonPassant extends BaseTest {
         burgerMenu.getHomeBurgerButton().click();
     }
 
-
     @Test (dataProvider = "not-passing-login")
     public void withoutFieldsRequiredTest(String username, String password) {
         loginPage.navigateToPage();

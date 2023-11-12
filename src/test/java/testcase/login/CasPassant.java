@@ -12,7 +12,6 @@ public class CasPassant extends BaseTest {
 
     private LoginPage loginPage;
     private VerifyInDriver verify;
-
     private BurgerMenu burgerMenu;
 
     @BeforeMethod
@@ -32,7 +31,6 @@ public class CasPassant extends BaseTest {
                 "ThisIsNotAPassword"
         );
         loginPage.submitForm();
-
         verify.elementIsPresent(MakeAppointmentPage.makeAppointmentTitleXpath);
         verify.elementIsNotPresent(loginPage.loginRequiredMessageXpath);
 

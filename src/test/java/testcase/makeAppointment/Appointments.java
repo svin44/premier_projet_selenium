@@ -75,7 +75,6 @@ public class Appointments extends BaseTest {
         Verify.elementText(appointmentConfirmationPage.getAppointmentDateConfirmation(),  date);
         Verify.elementText(appointmentConfirmationPage.getAppointmentCommentConfirmation(), comment);
     }
-
     @DataProvider(name = "all-cases-appointment")
     public Object[][] dataProviderAppointment() {
         return new Object[][]{
