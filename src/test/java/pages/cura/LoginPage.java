@@ -54,7 +54,7 @@ public class LoginPage {
      * Getters for elements of the page
      */
     private WebElement getUsernameField(){ return driver.findElement(usernameXpath); }
-    private WebElement getPasswordField(){ return driver.findElement(passwordXpath)); }
+    private WebElement getPasswordField(){ return driver.findElement(passwordXpath); }
     private WebElement getLoginButton(){ return driver.findElement(loginButtonXpath); }
     public WebElement getFieldRequiredError(){ return driver.findElement(loginRequiredMessageXpath); }
 
